@@ -1,14 +1,40 @@
 @font-face {
-    font-family: Pompadur; /* Имя шрифта */
-    src: url(fonts/); /* Путь к файлу со шрифтом */
+    font-family: HelveticaNeueLTPro-BdEx; /* Имя шрифта */
+    src: url(fonts/HelveticaNeueLTPro-BdEx.otf); /* Путь к файлу со шрифтом */
+    font-weight: bold;
 }
+
+@font-face {
+    font-family: HelveticaNeueLTPro-ThEx; /* Имя шрифта */
+    src: url(fonts/HelveticaNeueLTPro-ThEx.otf); /* Путь к файлу со шрифтом */
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: MyriadPro-Regular; /* Имя шрифта */
+    src: url(fonts/MyriadPro-Regular.otf); /* Путь к файлу со шрифтом */
+    font-weight: normal;
+}
+
+
 /*-------------------wrapper----------- */
 .wrapper {
     width: 675px;
     margin: 0 auto;
 }
 /*-------------- general styles -----------------*/
+h1 {
+    margin: 0;
+    padding: 30px 0 0 50px;
+    font-family: HelveticaNeueLTPro-ThEx;
+    font-size: 24pt;
+    color: white;
 
+}
+h1 span {
+    font-family: HelveticaNeueLTPro-BdEx;
+
+}
 
 
 /*--------------- header styles--------------*/
@@ -18,19 +44,78 @@ header {
 .header-logo {
     width: 675px;
     height: 80px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     background: linear-gradient(to bottom, #769715 0%,#769715 11%,#7b9f12 25%,#92c205 65%,#99cb01 80%,#99cc01 100%);
 
 }
+nav {
+    height: 80px;
+}
 ul {
     list-style-type: none;
+    margin: 0;
+    padding-top: 30px;
 }
 li{
     display: inline;
+    margin-right: 15px;
+    font-family: MyriadPro-Regular;
+
+    font-size: 16pt;
 }
+li a:link {
+    text-decoration: none;
+    color: #093500;
+}
+li a:hover {
+    text-decoration: none;
+    color: gray;
+}
+
 
 /*--------------- main styles--------------*/
 
+.central-section {
+    background-color: #eeeefb;
+    height: 190px;
+
+}
+
+section img {
+    float: left;
+    display: block;
+}
+main h1 {
+    margin: 0;
+    position: relative;
+    left: -40px;
+    padding: 30px 0 0 50px;
+    font-family: HelveticaNeueLTPro-ThEx;
+    font-size: 24pt;
+    color: black;
+
+}
+main h1 span {
+    font-family: HelveticaNeueLTPro-BdEx;
+
+}
+
+
 /*--------------- footer styles--------------*/
 
+
+.Science_Lab {
+    font-size: 26.653px;
+    font-family: "HelveticaNeueLTPro";
+    color: rgb(255, 255, 255);
+    line-height: 0.443;
+    text-align: left;
+    -moz-transform: matrix( 1.20061290901912,0,0,1.20061290901912,0,0);
+    -webkit-transform: matrix( 1.20061290901912,0,0,1.20061290901912,0,0);
+    -ms-transform: matrix( 1.20061290901912,0,0,1.20061290901912,0,0);
+    position: absolute;
+    left: 119.187px;
+    top: 33.596px;
+    z-index: 16;
+}
 
