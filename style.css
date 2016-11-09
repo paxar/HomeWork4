@@ -23,18 +23,7 @@
     margin: 0 auto;
 }
 /*-------------- general styles -----------------*/
-h1 {
-    margin: 0;
-    padding: 30px 0 0 50px;
-    font-family: HelveticaNeueLTPro-ThEx;
-    font-size: 24pt;
-    color: white;
 
-}
-h1 span {
-    font-family: HelveticaNeueLTPro-BdEx;
-
-}
 
 
 /*--------------- header styles--------------*/
@@ -46,6 +35,18 @@ header {
     height: 80px;
     /*border: 1px solid black;*/
     background: linear-gradient(to bottom, #769715 0%,#769715 11%,#7b9f12 25%,#92c205 65%,#99cb01 80%,#99cc01 100%);
+
+}
+header h1 {
+    margin: 0;
+    padding: 30px 0 0 50px;
+    font-family: HelveticaNeueLTPro-ThEx;
+    font-size: 24pt;
+    color: white;
+
+}
+header h1 span {
+    font-family: HelveticaNeueLTPro-BdEx;
 
 }
 nav {
@@ -77,6 +78,8 @@ li a:hover {
 
 .central-section {
     background-color: #eeeefb;
+    background-image: url("img/main-image.png");
+    background-repeat: no-repeat;
     height: 190px;
 
 }
@@ -87,9 +90,9 @@ section img {
 }
 main h1 {
     margin: 0;
-    position: relative;
-    left: -40px;
-    padding: 30px 0 0 50px;
+    /*position: relative;*/
+    /*left: -40px;*/
+    padding: 30px 0 0 250px;
     font-family: HelveticaNeueLTPro-ThEx;
     font-size: 24pt;
     color: black;
