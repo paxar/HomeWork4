@@ -1,0 +1,36 @@
+@font-face {
+    font-family: Pompadur; /* Имя шрифта */
+    src: url(fonts/); /* Путь к файлу со шрифтом */
+}
+/*-------------------wrapper----------- */
+.wrapper {
+    width: 675px;
+    margin: 0 auto;
+}
+/*-------------- general styles -----------------*/
+
+
+
+/*--------------- header styles--------------*/
+header {
+
+}
+.header-logo {
+    width: 675px;
+    height: 80px;
+    border: 1px solid black;
+    background: linear-gradient(to bottom, #769715 0%,#769715 11%,#7b9f12 25%,#92c205 65%,#99cb01 80%,#99cc01 100%);
+
+}
+ul {
+    list-style-type: none;
+}
+li{
+    display: inline;
+}
+
+/*--------------- main styles--------------*/
+
+/*--------------- footer styles--------------*/
+
+
