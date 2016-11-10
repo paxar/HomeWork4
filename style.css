@@ -4,53 +4,43 @@
     src: url(fonts/HelveticaNeueLTPro-BdEx.otf); /* Путь к файлу со шрифтом */
     font-weight: bold;
 }
-
 @font-face {
     font-family: HelveticaNeueLTPro-ThEx; /* Имя шрифта */
     src: url(fonts/HelveticaNeueLTPro-ThEx.otf); /* Путь к файлу со шрифтом */
     font-weight: normal;
-
-
 }
-
 @font-face {
     font-family: MyriadPro-Regular; /* Имя шрифта */
     src: url(fonts/MyriadPro-Regular.otf); /* Путь к файлу со шрифтом */
     font-weight: normal;
 }
 
-
-/*-------------------wrapper----------- */
+/*-------------------page settings----------- */
 .wrapper {
     width: 675px;
     margin: 0 auto;
 }
-/*-------------- general styles -----------------*/
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
 }
-
+/*-------------- general styles -----------------*/
 
 h1 {
     margin: 0;
     font-family: HelveticaNeueLTPro-ThEx;
     font-size: 32px;
 }
-
 h1 span {
     font-family: HelveticaNeueLTPro-BdEx;
 }
-
 h2 {
+    color: #093500;
     font-family: MyriadPro-Regular;
     font-size: 20px;
     font-weight: normal;
-    color: #093500;
-
 }
-
 section p {
     font-family: "Tahoma";
     font-size: 10px;
@@ -59,113 +49,95 @@ section p {
 }
 section p b {
     display: block;
-    font-size: 11px;
     color: #80a60f;
+    font-size: 11px;
 }
-
 section img {
     float: left;
     display: block;
 }
-
-
-/*--------------- header styles--------------*/
-header {
-
+section a {
+    width: 13px;
+    height: 9px;
+    display: block;
+    background-image: url("img/arrow.png");
 }
+section a:hover {
+    border: 1px dotted gray;
+}
+/*--------------- header styles--------------*/
 .header-logo {
     width: 675px;
     height: 80px;
-    /*border: 1px solid black;*/
     background: linear-gradient(to bottom, #769715 0%,#769715 11%,#7b9f12 25%,#92c205 65%,#99cb01 80%,#99cc01 100%);
-
 }
 header h1 {
     padding: 20px 0 0 40px;
     color: white;
 }
-
-
 nav {
     height: 80px;
 }
 ul {
-    list-style-type: none;
     margin: 0;
     padding-top: 30px;
+    list-style-type: none;
 }
 li{
-    display: inline;
     margin-right: 20px;
+    display: inline;
     font-family: MyriadPro-Regular;
     font-size: 20px;
 }
 li a:link,
 li a:visited {
-    text-decoration: none;
     color: #093500;
+    text-decoration: none;
 }
 li a:hover {
-    text-decoration: none;
     color: gray;
+    text-decoration: none;
 }
 
-
 /*--------------- main styles--------------*/
-
 main h1 {
     padding: 30px 0 0 250px;
     color: #093500;
 }
 
-
-section a {
-    display: block;
-    background-image: url("img/arrow.png");
-    width: 13px;
-    height: 9px;
-}
-
-
 .central-section {
+    height: 190px;
+    margin-bottom: 10px;
     background-color: #eeeefb;
     background-image: url("img/main-image.png");
     background-repeat: no-repeat;
-    height: 190px;
-    margin-bottom: 10px;
-
 }
 .central-section p {
     padding: 5px 20px 0 300px;
-
 }
-
 .central-section a {
      margin-top: 10px;
 }
 .down-section {
-    border-bottom: 5px solid #eeeefb;    /*---------gray big border after footer */
+    border-bottom: 5px solid #eeeefb;
 }
-
 .left-block {
     float: left;
     width: 210px;
+    margin-top: 30px;
     padding-left: 20px;
     padding-right: 25px;
-    margin-top: 30px;
     border-right: 2px solid #eeeefb;
 }
 .left-block h2 {
     margin-top: -15px;
 }
 .left-block a {
-    margin-bottom: -10px;
+    margin-bottom: -20px;
 }
-
 .top-right-block {
     border-bottom: 2px solid #eeeefb;
 }
-
 .top-right-block,
 .bottom-right-block{
     float: right;
@@ -173,34 +145,28 @@ section a {
     margin-top: 15px;
     margin-right: 25px;
     padding-bottom: 5px;
-}
-
+    }
 .top-right-block h2,
 .bottom-right-block h2{
     margin-top: 0;
+    margin-bottom: 10px;
 }
-
 .top-right-block img,
 .bottom-right-block img {
     padding-right: 20px;
 }
-
 
 /*--------------- footer styles--------------*/
 
 footer {
     padding: 20px;
 }
-
 footer span {
     display: block;
+    color: rgb(9, 53, 0);
     font-family: "Tahoma";
     font-size: 10px;
-    color: rgb(9, 53, 0);
-
 }
-
-
 
 
 /*--------------------------------TEMP -------------------------*/
