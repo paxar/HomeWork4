@@ -36,13 +36,15 @@
 
 /*-------------- general styles -----------------*/
 
-h1 {
+h1,
+.logo {
     margin: 0;
     font-family: HelveticaNeueLTPro-ThEx;
     font-size: 32px;
 }
 
-h1 span {
+h1 span,
+.logo span {
     font-family: HelveticaNeueLTPro-BdEx;
 }
 
@@ -88,7 +90,7 @@ section a:hover {
     background: linear-gradient(to bottom, #769715 0%, #769715 11%, #7b9f12 25%, #92c205 65%, #99cb01 80%, #99cc01 100%);
 }
 
-header h1 {
+header .logo {
     padding: 20px 0 0 40px;
     color: white;
 }
