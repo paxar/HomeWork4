@@ -1,3 +1,4 @@
+/*--------------------------fonts ----------------------------------*/
 @font-face {
     font-family: HelveticaNeueLTPro-BdEx; /* Имя шрифта */
     src: url(fonts/HelveticaNeueLTPro-BdEx.otf); /* Путь к файлу со шрифтом */
@@ -8,6 +9,8 @@
     font-family: HelveticaNeueLTPro-ThEx; /* Имя шрифта */
     src: url(fonts/HelveticaNeueLTPro-ThEx.otf); /* Путь к файлу со шрифтом */
     font-weight: normal;
+
+
 }
 
 @font-face {
@@ -23,7 +26,40 @@
     margin: 0 auto;
 }
 /*-------------- general styles -----------------*/
+h1 {
+    margin: 0;
+    font-family: HelveticaNeueLTPro-ThEx;
+    font-size: 32px;
+}
 
+h1 span {
+    font-family: HelveticaNeueLTPro-BdEx;
+}
+
+h2 {
+    font-family: MyriadPro-Regular;
+    font-size: 20px;
+    font-weight: normal;
+    /*margin: 0;*/    /*--------off-----------*/
+
+}
+
+section p {
+    font-family: "Tahoma";
+    font-size: 10px;
+    line-height: 1.5;
+    text-align: left;
+}
+section p b {
+    display: block;
+    font-size: 11px;
+    color: #80a60f;
+}
+
+section img {
+    float: left;
+    display: block;
+}
 
 
 /*--------------- header styles--------------*/
@@ -38,17 +74,20 @@ header {
 
 }
 header h1 {
-    margin: 0;
-    padding: 30px 0 0 50px;
-    font-family: HelveticaNeueLTPro-ThEx;
-    font-size: 24pt;
+    padding: 20px 0 0 40px;
     color: white;
-
 }
-header h1 span {
-    font-family: HelveticaNeueLTPro-BdEx;
 
-}
+
+
+
+
+
+
+
+
+
+
 nav {
     height: 80px;
 }
@@ -59,12 +98,12 @@ ul {
 }
 li{
     display: inline;
-    margin-right: 15px;
+    margin-right: 20px;
     font-family: MyriadPro-Regular;
-
-    font-size: 16pt;
+    font-size: 20px;
 }
-li a:link {
+li a:link,
+li a:visited {
     text-decoration: none;
     color: #093500;
 }
@@ -76,6 +115,12 @@ li a:hover {
 
 /*--------------- main styles--------------*/
 
+main h1 {
+    padding: 30px 0 0 250px;
+    color: black;
+}
+
+
 .central-section {
     background-color: #eeeefb;
     background-image: url("img/main-image.png");
@@ -85,53 +130,32 @@ li a:hover {
 }
 .central-section p {
     padding: 0 20px 0 300px;
-    font-family: "Tahoma";
-    font-size: 9pt;
-    text-align: left;
-}
-.central-section p b {
-    display: block;
-    font-size: 10pt;
-    color: #80a60f;
 
 }
 
-section img {
+.left-block {
     float: left;
-    display: block;
+    width: 210px;
+    padding-left: 20px;
 }
-main h1 {
-    margin: 0;
-    /*position: relative;*/
-    /*left: -40px;*/
-    padding: 30px 0 0 250px;
-    font-family: HelveticaNeueLTPro-ThEx;
-    font-size: 24pt;
-    color: black;
 
+.top-right-block,
+.bottom-right-block{
+    float: right;
+    width: 430px;
 }
-main h1 span {
-    font-family: HelveticaNeueLTPro-BdEx;
 
+.top-right-block img,
+.bottom-right-block img {
+    padding: 20px;
 }
 
 
 /*--------------- footer styles--------------*/
 
 
-.Ea_consetetur_sadi_consetetur__consetetur_pscin {
-    font-size: 11px;
-    font-family: "Tahoma";
-    color: rgb(128, 166, 15);
-    font-weight: bold;
-    line-height: 1.273;
-    text-align: left;
-    position: absolute;
-    left: 368.125px;
-    top: 253.501px;
-    width: 323px;
-    height: 67px;
-    z-index: 27;
-}
+
+
+/*--------------------------------TEMP -------------------------*/
 
 
