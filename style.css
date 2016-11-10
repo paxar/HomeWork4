@@ -17,6 +17,11 @@
     font-weight: normal;
 }
 
+@font-face {
+    font-family: Tahoma; /* Имя шрифта */
+    src: url(fonts/tahoma_0.ttf); /* Путь к файлу со шрифтом */
+    font-weight: normal;
+}
 /*-------------------page settings----------- */
 .wrapper {
     width: 675px;
@@ -79,7 +84,6 @@ section a:hover {
 
 /*--------------- header styles--------------*/
 .header-logo {
-    width: 675px;
     height: 80px;
     background: linear-gradient(to bottom, #769715 0%, #769715 11%, #7b9f12 25%, #92c205 65%, #99cb01 80%, #99cc01 100%);
 }
@@ -89,18 +93,14 @@ header h1 {
     color: white;
 }
 
-nav {
-    height: 80px;
-}
-
 ul {
     margin: 0;
-    padding-top: 30px;
+    padding: 30px;
     list-style-type: none;
 }
 
 li {
-    margin-right: 20px;
+    margin-right: 19px;
     display: inline;
     font-family: MyriadPro-Regular;
     font-size: 20px;
@@ -182,6 +182,7 @@ main h1 {
 .top-right-block img,
 .bottom-right-block img {
     padding-right: 20px;
+    padding-bottom: 5px;
 }
 
 /*--------------- footer styles--------------*/
@@ -192,7 +193,7 @@ footer {
 
 footer span {
     display: block;
-    color: rgb(9, 53, 0);
+    color: #093500;
     font-family: "Tahoma";
     font-size: 10px;
 }
