@@ -26,6 +26,13 @@
     margin: 0 auto;
 }
 /*-------------- general styles -----------------*/
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
 h1 {
     margin: 0;
     font-family: HelveticaNeueLTPro-ThEx;
@@ -40,7 +47,7 @@ h2 {
     font-family: MyriadPro-Regular;
     font-size: 20px;
     font-weight: normal;
-    /*margin: 0;*/    /*--------off-----------*/
+    color: #093500;
 
 }
 
@@ -79,15 +86,6 @@ header h1 {
 }
 
 
-
-
-
-
-
-
-
-
-
 nav {
     height: 80px;
 }
@@ -117,7 +115,15 @@ li a:hover {
 
 main h1 {
     padding: 30px 0 0 250px;
-    color: black;
+    color: #093500;
+}
+
+
+section a {
+    display: block;
+    background-image: url("img/arrow.png");
+    width: 13px;
+    height: 9px;
 }
 
 
@@ -126,32 +132,73 @@ main h1 {
     background-image: url("img/main-image.png");
     background-repeat: no-repeat;
     height: 190px;
+    margin-bottom: 10px;
 
 }
 .central-section p {
-    padding: 0 20px 0 300px;
+    padding: 5px 20px 0 300px;
 
+}
+
+.central-section a {
+    margin-left: 300px;
+}
+.down-section {
+    border-bottom: 5px solid #eeeefb;    /*---------gray big border after footer */
 }
 
 .left-block {
     float: left;
     width: 210px;
     padding-left: 20px;
+    padding-right: 25px;
+    margin-top: 30px;
+    border-right: 2px solid #eeeefb;
+}
+.left-block h2 {
+    margin-top: -15px;
+}
+.left-block a {
+    margin-bottom: -10px;
+}
+
+.top-right-block {
+    border-bottom: 2px solid #eeeefb;
 }
 
 .top-right-block,
 .bottom-right-block{
     float: right;
-    width: 430px;
+    width: 375px;
+    margin-top: 15px;
+    margin-right: 25px;
+    padding-bottom: 5px;
+}
+
+.top-right-block h2,
+.bottom-right-block h2{
+    margin-top: 0;
 }
 
 .top-right-block img,
 .bottom-right-block img {
-    padding: 20px;
+    padding-right: 20px;
 }
 
 
 /*--------------- footer styles--------------*/
+
+footer {
+    padding: 20px;
+}
+
+footer span {
+    display: block;
+    font-family: "Tahoma";
+    font-size: 10px;
+    color: rgb(9, 53, 0);
+
+}
 
 
 
