@@ -1,0 +1,226 @@
+/*--------------------------fonts ----------------------------------*/
+@font-face {
+    font-family: 'HelveticaNeueLTPro-BdEx';
+    src: url('../fonts/HelveticaNeueLTPro-BdEx.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/HelveticaNeueLTPro-BdEx.otf')  format('opentype'),
+    url('../fonts/HelveticaNeueLTPro-BdEx.woff') format('woff'),
+    url('../fonts/HelveticaNeueLTPro-BdEx.ttf')  format('truetype'),
+    url('../fonts/HelveticaNeueLTPro-BdEx.svg#HelveticaNeueLTPro-BdEx') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueLTPro-ThEx';
+    src: url('../fonts/HelveticaNeueLTPro-ThEx.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/HelveticaNeueLTPro-ThEx.otf')  format('opentype'),
+    url('../fonts/HelveticaNeueLTPro-ThEx.woff') format('woff'),
+    url('../fonts/HelveticaNeueLTPro-ThEx.ttf')  format('truetype'),
+    url('../fonts/HelveticaNeueLTPro-ThEx.svg#HelveticaNeueLTPro-ThEx') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MyriadPro-Regular';
+    src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MyriadPro-Regular.otf')  format('opentype'),
+    url('../fonts/MyriadPro-Regular.woff') format('woff'),
+    url('../fonts/MyriadPro-Regular.ttf')  format('truetype'),
+    url('../fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Tahoma';
+    src: url('../fonts/Tahoma.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Tahoma.woff') format('woff'),
+    url('../fonts/Tahoma.ttf')  format('truetype'),
+    url('../fonts/Tahoma.svg#Tahoma') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*-------------------page settings----------- */
+.wrapper {
+    width: 675px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*-------------- general styles -----------------*/
+
+h1,
+.logo {
+    margin: 0;
+    font-family: HelveticaNeueLTPro-ThEx;
+    font-size: 32px;
+}
+
+h1 span,
+.logo span {
+    font-family: HelveticaNeueLTPro-BdEx;
+}
+
+h2 {
+    color: #093500;
+    font-family: MyriadPro-Regular;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+section p {
+    font-family: "Tahoma";
+    font-size: 10px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+section p b {
+    display: block;
+    color: #80a60f;
+    font-size: 11px;
+}
+
+section img {
+    float: left;
+    display: block;
+}
+
+section a {
+    width: 13px;
+    height: 9px;
+    display: block;
+    background-image: url("../img/arrow.png");
+}
+
+section a:hover {
+    border: 1px dotted gray;
+}
+
+/*--------------- header styles--------------*/
+.header-logo {
+    height: 80px;
+    background: linear-gradient(to bottom, #769715 0%, #769715 11%, #7b9f12 25%, #92c205 65%, #99cb01 80%, #99cc01 100%);
+}
+
+header .logo {
+    padding: 20px 0 0 40px;
+    color: white;
+}
+
+ul {
+    margin: 0;
+    padding: 30px;
+    list-style-type: none;
+}
+
+li {
+    margin-right: 19px;
+    display: inline;
+    font-family: MyriadPro-Regular;
+    font-size: 20px;
+}
+
+li a:link,
+li a:visited {
+    color: #093500;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+/*--------------- main styles--------------*/
+main h1 {
+    padding: 30px 0 0 250px;
+    color: #093500;
+}
+
+.central-section {
+    height: 190px;
+    margin-bottom: 10px;
+    background-color: #eeeefb;
+    background-image: url("../img/main-image.png");
+    background-repeat: no-repeat;
+}
+
+.central-section p {
+    padding: 5px 20px 0 300px;
+}
+
+.central-section a {
+    margin-top: 10px;
+}
+
+.down-section {
+    border-bottom: 5px solid #eeeefb;
+}
+
+.left-block {
+    float: left;
+    width: 210px;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 25px;
+    border-right: 1px solid #eeeefb;
+}
+
+.left-block h2 {
+    margin-top: -15px;
+}
+
+.left-block a {
+    margin-bottom: -20px;
+}
+
+.top-right-block {
+    border-bottom: 1px solid #eeeefb;
+}
+
+.top-right-block,
+.bottom-right-block {
+    float: right;
+    width: 375px;
+    margin-top: 15px;
+    margin-right: 25px;
+    padding-bottom: 5px;
+}
+
+.top-right-block h2,
+.bottom-right-block h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.top-right-block img,
+.bottom-right-block img {
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+
+/*--------------- footer styles--------------*/
+
+footer {
+    padding: 20px;
+}
+
+footer span {
+    display: block;
+    color: #093500;
+    font-family: "Tahoma";
+    font-size: 10px;
+}
+
+/*--------------------------------TEMP -------------------------*/
+
+
