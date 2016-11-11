@@ -87,6 +87,7 @@ section p b {
     display: block;
     color: #80a60f;
     font-size: 11px;
+    letter-spacing: 1px;
 }
 
 section img {
