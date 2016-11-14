@@ -1,6 +1,6 @@
 /*--------------------------fonts ----------------------------------*/
 @font-face {
-    font-family: 'HelveticaNeueLTPro-BdEx';
+    font-family: 'HelveticaNeueLTPro';
     src: url('../fonts/HelveticaNeueLTPro-BdEx.eot?#iefix') format('embedded-opentype'),
     url('../fonts/HelveticaNeueLTPro-BdEx.otf')  format('opentype'),
     url('../fonts/HelveticaNeueLTPro-BdEx.woff') format('woff'),
@@ -11,7 +11,7 @@
 }
 
 @font-face {
-    font-family: 'HelveticaNeueLTPro-ThEx';
+    font-family: 'HelveticaNeueLTPro';
     src: url('../fonts/HelveticaNeueLTPro-ThEx.eot?#iefix') format('embedded-opentype'),
     url('../fonts/HelveticaNeueLTPro-ThEx.otf')  format('opentype'),
     url('../fonts/HelveticaNeueLTPro-ThEx.woff') format('woff'),
@@ -44,6 +44,8 @@
 }
 
 /*-------------------page settings----------- */
+
+/*--------- todo   do not use height: parameter to blocks, use margin, padding---------*/
 .wrapper {
     width: 675px;
     margin: 0 auto;
@@ -60,13 +62,15 @@
 h1,
 .logo {
     margin: 0;
-    font-family: HelveticaNeueLTPro-ThEx;
+    font-family: HelveticaNeueLTPro;
     font-size: 32px;
+    font-weight: normal;
 }
 
 h1 span,
 .logo span {
-    font-family: HelveticaNeueLTPro-BdEx;
+    font-family: HelveticaNeueLTPro;
+    font-weight: bold;
 }
 
 h2 {
