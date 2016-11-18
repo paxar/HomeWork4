@@ -45,7 +45,7 @@
 
 /*-------------------page settings----------- */
 
-/*--------- todo   do not use height: parameter to blocks, use margin, padding---------*/
+
 .wrapper {
     width: 675px;
     margin: 0 auto;
@@ -59,16 +59,14 @@
 
 /*-------------- body styles -----------------*/
 
-h2,
-.logos {
+h2 {
     margin: 0;
     font-family: HelveticaNeueLTPro;
     font-size: 32px;
     font-weight: normal;
 }
 
-h2 span,
-.logos span {
+h2 span {
     font-family: HelveticaNeueLTPro;
     font-weight: bold;
 }
@@ -87,11 +85,12 @@ section p {
     text-align: left;
 }
 
-section p b {
+section p span {
     display: block;
     color: #80a60f;
     font-size: 11px;
     letter-spacing: 1px;
+    font-weight: bold;
 }
 
 section img {
@@ -99,7 +98,8 @@ section img {
     display: block;
 }
 
-section a {
+
+.article-link-arrow {
     width: 13px;
     height: 9px;
     display: block;
@@ -153,8 +153,10 @@ li:nth-child(n+2){
 
 /*--------------- main styles--------------*/
 main h2 {
-    padding: 30px 0 0 250px;
+    float: right;
+    padding: 30px 105px 0 0;
     color: #093500;
+
 }
 
 
@@ -169,18 +171,21 @@ main h2 {
 
 .intro p {
     padding: 5px 20px 0 300px;
+    float:right;
 }
 
 
-.intro a {
+.intro .article-link-arrow {
     margin-top: 10px;
 }
 
-.down-section {
+
+.articles{
     border-bottom: 5px solid #eeeefb;
 }
 
-.left-block {
+
+.article-about{
     float: left;
     width: 210px;
     margin-top: 30px;
@@ -189,20 +194,20 @@ main h2 {
     border-right: 1px solid #eeeefb;
 }
 
-.left-block h3 {
+.article-about h3 {
     margin-top: -15px;
 }
 
-.left-block a {
+.article-about .article-link-arrow {
     margin-bottom: -20px;
 }
 
-.top-right-block {
+.artical-researches {
     border-bottom: 1px solid #eeeefb;
 }
 
-.top-right-block,
-.bottom-right-block {
+.artical-researches,
+.artical-services {
     float: right;
     width: 375px;
     margin-top: 15px;
@@ -210,14 +215,14 @@ main h2 {
     padding-bottom: 5px;
 }
 
-.top-right-block h3,
-.bottom-right-block h3 {
+.artical-researches h3,
+.artical-services h3 {
     margin-top: 0;
     margin-bottom: 10px;
 }
 
-.top-right-block img,
-.bottom-right-block img {
+.artical-researches img,
+.artical-services img {
     padding-right: 20px;
     padding-bottom: 5px;
 }
