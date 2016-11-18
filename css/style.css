@@ -59,21 +59,21 @@
 
 /*-------------- body styles -----------------*/
 
-h1,
-.logo {
+h2,
+.logos {
     margin: 0;
     font-family: HelveticaNeueLTPro;
     font-size: 32px;
     font-weight: normal;
 }
 
-h1 span,
-.logo span {
+h2 span,
+.logos span {
     font-family: HelveticaNeueLTPro;
     font-weight: bold;
 }
 
-h2 {
+h3 {
     color: #093500;
     font-family: MyriadPro-Regular;
     font-size: 20px;
@@ -152,12 +152,13 @@ li:nth-child(n+2){
 }
 
 /*--------------- main styles--------------*/
-main h1 {
+main h2 {
     padding: 30px 0 0 250px;
     color: #093500;
 }
 
-.central-section {
+
+.intro{
     height: 190px;
     margin-bottom: 10px;
     background-color: #eeeefb;
@@ -165,11 +166,13 @@ main h1 {
     background-repeat: no-repeat;
 }
 
-.central-section p {
+
+.intro p {
     padding: 5px 20px 0 300px;
 }
 
-.central-section a {
+
+.intro a {
     margin-top: 10px;
 }
 
@@ -186,7 +189,7 @@ main h1 {
     border-right: 1px solid #eeeefb;
 }
 
-.left-block h2 {
+.left-block h3 {
     margin-top: -15px;
 }
 
@@ -207,8 +210,8 @@ main h1 {
     padding-bottom: 5px;
 }
 
-.top-right-block h2,
-.bottom-right-block h2 {
+.top-right-block h3,
+.bottom-right-block h3 {
     margin-top: 0;
     margin-bottom: 10px;
 }
