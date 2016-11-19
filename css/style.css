@@ -45,7 +45,6 @@
 
 /*-------------------page settings----------- */
 
-
 .wrapper {
     width: 675px;
     margin: 0 auto;
@@ -57,7 +56,6 @@
     clear: both;
 }
 
-
 /*--------------- header styles--------------*/
 .header-logo {
     height: 80px;
@@ -65,7 +63,7 @@
 }
 
 header .logo {
-    padding: 26px 0 0 40px;
+    padding: 24px 0 0 40px;
 }
 
 header .logo h1 {
@@ -74,7 +72,7 @@ header .logo h1 {
 
 ul {
     margin: 0;
-    padding: 30px 0 30px 37px;
+    padding: 27px 0 27px 37px;
     list-style-type: none;
 }
 
@@ -150,17 +148,14 @@ h2 span {
     background-repeat: no-repeat;
 }
 
-
 .intro p {
     padding: 5px 20px 0 300px;
     float:right;
 }
 
-
 .intro .article-link-arrow {
     margin-top: 10px;
 }
-
 
 .articles{
     border-bottom: 5px solid #eeeefb;
@@ -178,11 +173,10 @@ h3 a:hover {
     text-decoration: underline;
 }
 
-
 .article-about{
     float: left;
     width: 210px;
-    margin-top: 30px;
+    margin-top: 24px;
     padding-left: 20px;
     padding-right: 25px;
     border-right: 1px solid #eeeefb;
